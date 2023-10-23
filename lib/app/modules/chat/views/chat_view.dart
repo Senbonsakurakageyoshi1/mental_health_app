@@ -153,24 +153,6 @@ class ChatView extends GetView<ChatController> {
                   padding:
                       EdgeInsets.only(left: 14, right: 14, top: 10, bottom: 10),
                   child: Align(
-                    alignment: (Alignment.topRight),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        color: (Colors.blue[200]),
-                      ),
-                      padding: EdgeInsets.all(16),
-                      child: Text(
-                        'Pain de rikudo est le plus fort',
-                        style: TextStyle(fontSize: 15),
-                      ),
-                    ),
-                  ),
-                ),
-                Container(
-                  padding:
-                      EdgeInsets.only(left: 14, right: 14, top: 10, bottom: 10),
-                  child: Align(
                     alignment: (Alignment.topLeft),
                     child: Container(
                       decoration: BoxDecoration(

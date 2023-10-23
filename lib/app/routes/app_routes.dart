@@ -6,6 +6,7 @@ abstract class Routes {
   static const CATEGORY = _Paths.CATEGORY;
   static const CHAT = _Paths.CHAT;
   static const ME = _Paths.ME;
+  static const SCANNER = _Paths.SCANNER;
 }
 
 abstract class _Paths {
@@ -13,4 +14,5 @@ abstract class _Paths {
   static const CATEGORY = '/category';
   static const CHAT = '/chat';
   static const ME = '/me';
+  static const SCANNER = '/scanner';
 }

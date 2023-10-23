@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../modules/Scanner/bindings/scanner_binding.dart';
+import '../modules/Scanner/views/scanner_view.dart';
 import '../modules/category/bindings/category_binding.dart';
 import '../modules/category/views/category_view.dart';
 import '../modules/chat/bindings/chat_binding.dart';
@@ -29,6 +31,11 @@ class AppPages {
       name: _Paths.ME,
       page: () => const MeView(),
       binding: MeBinding(),
+    ),
+    GetPage(
+      name: _Paths.SCANNER,
+      page: () => const ScannerView(),
+      binding: ScannerBinding(),
     ),
   ];
 }
